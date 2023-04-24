@@ -6,6 +6,7 @@ import "antd/dist/reset.css";
 import "./App.css";
 import Karrusel from "./components/Karrusel";
 import Trin from "./components/Trin";
+import Trin2 from "./components/Trin2";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -13,6 +14,10 @@ function App() {
   return (
     <>
       <main>
+        <Trin2 />
+
+        <hr />
+        <h2>First trin</h2>
         <Trin />
         {/*   <Karrusel /> */}
       </main>
